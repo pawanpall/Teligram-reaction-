@@ -1,0 +1,20 @@
+# ============================================
+# customtgbomber.py — Requirements
+# ============================================
+
+# Python Version: 3.9+ (Recommended: 3.10 / 3.11)
+
+# --- Core Dependencies ---
+aiogram>=3.0.0,<4.0.0      # Telegram Bot Framework (v3.x ONLY, 2.x not supported)
+aiohttp>=3.8.0             # Async HTTP client (Firebase REST + raw Telegram API)
+
+# --- Optional (development / production) ---
+# aiohttp-socks>=0.8.0     # Uncomment agar proxy/socks support chahiye
+# uvloop>=0.19.0           # Linux only — faster asyncio event loop
+
+# ============================================
+# Built-in Modules Used (install nahi karne)
+# ============================================
+# asyncio, json, os, time, logging, random,
+# string, threading, datetime, copy, collections
+# ============================================
